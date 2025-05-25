@@ -1,0 +1,11 @@
+name: Ga2
+on: push
+jobs:
+  ga:  
+    runs-on: ubuntu-latest
+    env:
+      test
+      steps:
+        - name: 22f3001715@ds.study.iitm.ac.in
+          run: echo "Hello, world!"
+  
